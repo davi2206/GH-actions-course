@@ -30,4 +30,4 @@ jobs:
       uses: super-linter/super-linter/slim@7
       env:
         DEFAULT_BRANCH: main
-        GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
